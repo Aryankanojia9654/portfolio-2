@@ -1,0 +1,13 @@
+<svg ... >
+  <style>
+    line, polygon, path {stroke: currentColor;stroke-width: 2; stroke-linecap: round;stroke-linejoin: round;fill: none;  }
+    text {font-family: sans-serif;}
+  </style>
+
+  <g id="header">
+    </g>
+
+  <g id="experience">
+    </g>
+
+  </svg>
