@@ -456,8 +456,23 @@ main hr {
   padding: 0 1em;
 }
 #about p { 
-  margin: 20px;
+  margin: 5px;
    
+}
+.about-text-container {
+  border: 1px solid #7b8383;
+  border-radius: 5px;
+  background: #222431;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.about-text-container p {
+  margin: 0;
+  line-height: 1.6;
+  text-align: left;
+  color: var(--font-color);
 }
 .about-social-container li {
   display: flex;
@@ -643,6 +658,7 @@ footer a:hover {
 .certification-container {
   border: 1px solid #7b8383;
   display: flex;
+  
   flex-direction: column;
   justify-content: space-evenly;
   gap: 8px;
