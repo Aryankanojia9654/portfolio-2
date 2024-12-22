@@ -762,5 +762,25 @@ nav ul li a {
 nav ul li a:hover {
   color: rgba(0, 179, 119, 1); /* Hover effect */
 }
-  
 
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 0.3rem 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  nav ul {
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Allow horizontal scroll if needed */
+  }
+
+  nav ul li {
+    margin: 0 0.2rem; /* Reduce side margins */
+  }
+
+  nav ul li a {
+    padding: 0.3rem 0.4rem; /* Decrease link padding */
+    font-size: 12px;        /* Smaller text */
+  }
+}
